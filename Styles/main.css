@@ -1,0 +1,287 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+
+#header{
+  height: 180px;
+  /* border: 2px solid red; */
+ 
+  }
+
+
+/* UPPER */
+#header > #upper_header{
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding-bottom: 5px;
+  padding-top: 5px;
+}
+
+
+
+
+
+/* MID */
+#header > #mid_header{
+    display: flex;
+    /* border: 2px solid red; */
+    margin-top: 10px;
+    justify-content: space-evenly;
+}
+#mid_header > input{
+    border: 2px solid red;
+    margin: 0px;
+}
+#mid_header > img{
+    width: 20%;
+}
+
+
+/* #header > #mid_header > :nth-child(3){
+    display: flex;
+    width: 30%;
+} */
+
+
+
+/* BOTTOM */
+#bottom_header > p{
+    display: inline;
+    margin-left: 3%;
+}
+#bottom_header > p:hover{
+    color: red;
+}
+#bottom_header{
+    width: 98%;
+    margin: auto;
+    padding-left: 4%;
+    /* border: 2px solid green; */
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 10px;
+}
+
+
+/* IMAGE */
+#image{
+    display: flex;
+    position: relative;
+    top: 60px;
+    width: 100%;
+}
+
+#image >div> img{
+    width: 70%;
+}
+#image >div:nth-child(3){
+    border: 2px solid green;
+    position: relative;
+    /* left: 20px; */
+    width: 50%;
+}
+#image>div:nth-child(3){
+    position: relative;
+    /* right: 100px; */
+}
+#image >div:nth-child(1){
+    border: 2px solid red;
+    position: relative;
+    /* left: 90px; */
+}
+
+/* SLIDE */
+#slide{
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+#slide > img{
+  width: 100%;
+  margin: auto;
+}
+
+/* IMAGE MID */
+#mid_img{
+    margin: auto;
+    width: 100%;
+}
+#mid_img > img{
+   width: 95%;
+   /* margin-top: 30px; */
+   margin-left: 3%;
+}
+
+/* IMAGE MID-2 */
+#mid_img2{
+    margin: auto;
+    width: 100%;
+}
+#mid_img2 > img{
+   width: 95%;
+   margin-top: 40px;
+   margin-bottom: 20px;
+   margin-left: 3%;
+}
+
+/* IMAGE MID-3 */
+#mid_img3{
+    display: grid;
+    grid-template-columns: repeat(6,1fr);   
+    width: 100%;
+    margin: auto;
+    line-height: 22px;
+    margin-bottom: 90px;
+}
+#mid_img3 > div> img{
+    width: 100%;
+    height: 300px;
+    gap: 5px 5px;
+    /* border: 2px solid green; */
+}
+#mid_img3 > div > :nth-child(2){
+    color: #388E3C;
+}
+
+/* BANNER BLUE*/
+#banner-blue{
+    width: 100%;
+    text-align: center;
+    /* border: 2px solid red; */
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background-color: #3441b6 ;
+    color: white;
+    line-height: 35px;
+    margin-bottom: 70px;
+}
+
+/* LINE IMG */
+#lineimg >img{
+  width: 95%;
+  margin-left:20px;
+  margin-bottom: 40px;
+}
+
+/* GIFTS BY PRICE */
+#gbp{
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+
+/* GIFTS BY PRICE Image */
+#gbpimg{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);   
+    width: 100%;
+    margin: auto;
+    text-align: center;   
+  }
+#gbpimg > div > img{
+    width: 100%;
+}
+#gbpimg > div{
+    width: 90%;
+    margin-left: 10px;
+    margin-bottom: 30px;
+}
+
+
+/* BANNER-RED */
+#banner-red{
+    width: 100%;
+    text-align: center;
+    /* border: 2px solid red; */
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: red ;
+    color: white;
+    line-height: 35px;
+    margin-bottom: 70px;
+}
+#banner-red > :nth-child(1){
+   font-size: 50px;
+}
+#banner-red > :nth-child(2){
+    font-size: 22px;
+    line-height: 45px;
+ }
+
+
+ /* LINE IMG-2 */
+ #line2img > img{
+    width: 95%;
+  margin-left:20px;
+  margin-bottom: 40px;
+ }
+
+
+ /* TRENDING NOW  */
+     #tn{
+        text-align: center;
+        margin-bottom: 50px;
+     }
+
+
+
+     /* THE THREAD */
+    #the-thread{
+        text-align: center;
+        line-height: 30px;
+        padding-bottom: 90px;
+    }
+
+
+
+    /* THE THREAD IMG */
+    #the-threadimg{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        gap: 10px;
+        margin-bottom: 50px;
+        margin-left: 10px;
+    }
+    #the-threadimg > div > img{
+        width: 100%;
+    }
+
+
+
+    /* LINE IMG-3 */
+ #line3img > img{
+    width: 95%;
+  margin-left:20px;
+  margin-bottom: 40px;
+ }
+
+
+
+ /* SHOP BY CATEGORY */
+ #sbc{
+    text-align: center;
+    margin-bottom: 50px;
+ }
+
+
+ /* SHOP BY CATEGORY IMAGES */
+ #sbcimg{
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+    gap: 10px;
+    margin-bottom: 50px;
+    margin-left: 10px;
+    text-align: center;
+ }
+ #sbcimg > div > img{
+    width: 100%;
+ }
+
+
+ /* FOTTER */
+ 
+
+
