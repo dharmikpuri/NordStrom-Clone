@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Products</title>
+    <link rel="stylesheet" href="Styles\men.css">
+</head>
+<body>
+
+    <div id="container">
+      <!-- APPEND HERE -->
+    </div>
+
+</body>
+
+<script>
+
+let container=document.querySelector("#container");
+
+     fetch("men.json")
+     .then((res) =>{
+      return res.json()
+     })
+     .then((actualData) =>{
+    //   fetchedData=actualData
+      showRestraurant(actualData)
+     })
+     .catch((error) =>{
+      console.log(error)
+     })
+
+      
+     function showRestraurant(data){
+        container.innerHTML = ""
+        data.forEach((element) =>{
+
+          let card=document.createElement("div")
+          card.setAttribute("class","card")
+    
+           let image=document.createElement("img")
+           image.setAttribute("src",element.image)
+    
+           let title=document.createElement("h2")
+           title.innerText= element.title
+    
+           let brand=document.createElement("h3")
+           brand.innerText=element.brand
+    
+           let description=document.createElement("p")
+           description.innerText=element.description
+    
+           let price=document.createElement("p")
+           price.innerText=element.price
+
+
+           
+          
+           card.append(image,title,brand,description,price);
+          container.append(card);
+         });
+        
+      }
+
+</script>
+</html>
