@@ -5,7 +5,7 @@
       "title": "Arrives Before Christmas",
       "brand": "Nike",
       "description": "Sports Wear Club Fleece Seweatpants (Big Boy)",
-      "price": "INR 2,902.40", 
+      "price": " 2,902.40", 
       "category": "Lower"
     },
     {
@@ -14,7 +14,7 @@
       "title": "Arrives Before Christmas",
       "brand": "Nike",
       "description": "Kids Fleece Stripe Joggers (Little Kid and Big Kids)",
-      "price": "INR 4,729.83" ,
+      "price": " 4,729.83" ,
       "category": "Jogger"
     },
     {
@@ -23,7 +23,7 @@
       "title": "Arrives Before Christmas",
       "brand": "Levi's",
       "description": "Levi's® 502 Strong Performance Straight Leg Jeans",
-      "price": "INR 3,611.87 " ,
+      "price": " 3,611.87 " ,
       "category": "Jeans"
     },
     {
@@ -32,7 +32,7 @@
       "title": "Arrives Before Christmas",
       "brand": "FEAR OF GOD ESSENTIALS",
       "description": "Kids' Relaxed Sweatpants",
-      "price": "INR 5,589.81 " ,
+      "price": " 5,589.81 " ,
       "category": "Lower"
     },
    
@@ -42,7 +42,7 @@
       "title": "Arrives Before Christmas",
       "brand": "Joe's",
       "description": "Kids' The Brixton Slim Straight Leg Jeans",
-      "price": "INR 4,643.83 " ,
+      "price": " 4,643.83 " ,
       "category": "Jeans"
     },
     {
@@ -51,52 +51,17 @@
       "title": "Arrives Before Christmas",
       "brand": "Nike",
       "description": "Windrunner Water Resistant Hooded Jacket",
-      "price": "INR 5,589.80 ",
+      "price": " 5,589.80 ",
       "category": "Jacket" 
     },
-    {
-      "id": 7,
-      "image": "https://n.nordstrommedia.com/id/sr3/b18cba0e-2aa5-44b8-abd0-efef13352a14.jpeg?crop=pad&pad_color=FFF&format=jpeg&w=780&h=1196&dpr=2",
-      "title": "Arrives Before Christmas",
-      "brand": "Joe's",
-      "description": "Mens' Rad Coated Jeans",
-      "price": "INR 4,643.83 ",
-      "category": "Jeans" 
-    },
-    {
-      "id": 8,
-      "image": "https://n.nordstrommedia.com/id/sr3/dc76efc5-606e-498c-8110-aec83c3f8517.jpeg?crop=pad&pad_color=FFF&format=jpeg&trim=color&trimcolor=FFF&w=780&h=838&dpr=2",
-      "title": "Arrives Before Christmas",
-      "brand": "BP.",
-      "description": "Water Resistant Chelsea Boot",
-      "price": "INR 4,298.13 " ,
-      "category": "Shoes"
-    },
-    {
-      "id": 9,
-      "image": "https://n.nordstrommedia.com/id/sr3/beaaeb26-20fb-4b27-9b63-02b9beeb863d.jpeg?crop=pad&pad_color=FFF&format=jpeg&trim=color&trimcolor=FFF&w=780&h=838&dpr=2",
-      "title": "Arrives Before Christmas",
-      "brand": "STEVE MADDAN",
-      "description": "Highline Chelsea Boot",
-      "price": "INR 8,595.39" ,
-      "category": "Shoes"
-    },
-    {
-      "id": 10,
-      "image": "https://n.nordstrommedia.com/id/sr3/35a19191-0754-4f26-bafa-26a080345970.jpeg?crop=pad&pad_color=FFF&format=jpeg&trim=color&trimcolor=FFF&w=780&h=838&dpr=2",
-      "title": "Arrives Before Christmas",
-      "brand": "TIMBERLAND",
-      "description": "Euro Waterproof Hiker Boot",
-      "price": "INR 9,889.64" ,
-      "category": "Shoes"
-    },
+    
     {
       "id": 11,
       "image": "https://n.nordstrommedia.com/id/sr3/18fce06a-64ac-4d76-b413-b82997a239e9.jpeg?crop=pad&pad_color=FFF&format=jpeg&w=780&h=1196&dpr=2",
       "title": "Arrives Before Christmas",
       "brand": "7 DIAMONDS",
       "description": "Liberty Geometric Stretch Button-Up Shirt",
-      "price": "INR 8,513.69" ,
+      "price": " 8,513.69" ,
       "category": "Shirts"
     },
     {
@@ -105,7 +70,7 @@
       "title": "Arrives Before Christmas",
       "brand": "7 DIAMONDS",
       "description": "Generation Plaid Stretch Flannel Button-Up Shirt",
-      "price": "INR 10,749.61" ,
+      "price": " 10,749.61" ,
       "category": "Shirts"
     },
     {
@@ -114,7 +79,7 @@
       "title": "Arrives Before Christmas",
       "brand": "NORDSTROM",
       "description": "Plaid Trim Fit Flannel Button-Down Shirt",
-      "price": "INR 4,298.99" ,
+      "price": " 4,298.99" ,
       "category": "Shirts"
     },
     {
@@ -123,7 +88,7 @@
       "title": "Arrives Before Christmas",
       "brand": "VINCE",
       "description": "Cotton Blend Shirt Jacket",
-      "price": "INR 25,369.09" ,
+      "price": " 25,369.09" ,
       "category": "Jacket"
 
     },
@@ -133,7 +98,7 @@
       "title": "Arrives Before Christmas",
       "brand": "SCHOTT NYC",
       "description": "Military Henley Sweater",
-      "price": "INR 13,329.52" ,
+      "price": " 13,329.52" ,
       "category": "Jacket"
 
     },
@@ -141,18 +106,18 @@
       "id": 16,
       "image": "https://n.nordstrommedia.com/id/sr3/ecbb2422-7cdd-476c-b015-c9fde880d9a7.jpeg?crop=pad&pad_color=FFF&format=jpeg&w=780&h=1196&dpr=2",
       "title": "Arrives Before Christmas",
-      "brand": "TOPMAM",
+      "brand": "TOPMAN",
       "description": "Solid Cotton Turtleneck",
-      "price": "INR 3,267.88 " ,
+      "price": " 3,267.88 " ,
       "category": "Jacket"
     },
     {
       "id": 17,
       "image": "https://n.nordstrommedia.com/id/sr3/1bf9b189-287e-4398-be2d-ac0cc400fc8d.jpeg?crop=pad&pad_color=FFF&format=jpeg&w=780&h=1196&dpr=2",
       "title": "Arrives Before Christmas",
-      "brand": "TOPMAM",
+      "brand": "TOPMAN",
       "description": "P65 Houndstooth Crewneck Sweater",
-      "price": "INR 5,589.80" ,
+      "price": " 5,589.80" ,
       "category": "Jacket"
     },
     {
@@ -161,7 +126,7 @@
       "title": "Arrives Before Christmas",
       "brand": "CHARATT WORK IN PROGRESS",
       "description": "Logo Pocket T-Shirt",
-      "price": "INR 4,127.85",
+      "price": " 4,127.85",
       "category": "T-shirt" 
     },
     {
@@ -170,7 +135,7 @@
       "title": "Arrives Before Christmas",
       "brand": "VUORI",
       "description": "Current Tech Long Sleeve T-Shirt",
-      "price": "INR 5,847.79" ,
+      "price": " 5,847.79" ,
       "category": "T-shirt"
     },
     {
@@ -179,7 +144,7 @@
     "title": "Arrives Before Christmas",
     "brand": "ICECREAM",
     "description": "Visitation Cotton Graphic Tee",
-    "price": "INR 3,009.89 ",
+    "price": " 3,009.89 ",
     "category": "T-shirt"
   } 
   ]

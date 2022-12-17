@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 img{
-    cursor: pointer;
+    cursor:pointer;
 }
 
 #header{
@@ -33,15 +33,22 @@ img{
     /* border: 2px solid red; */
     margin-top: 10px;
     justify-content: space-evenly;
+
 }
 #mid_header > input{
-    border: 2px solid red;
-    margin: 0px;
-}
-#mid_header > img{
-    width: 20%;
+    /* border: 2px solid red; */
+    height: 50px;
+    width: 50%;
+    margin: 10px 0 0 0;
 }
 
+#mid_header > img{
+    width: 12%;
+}
+
+#mid_header a,i{
+    margin-top: 23px;
+}
 
 /* #header > #mid_header > :nth-child(3){
     display: flex;
@@ -59,13 +66,13 @@ img{
     color: red;
 }
 #bottom_header{
-    width: 98%;
-    margin: auto;
+    width: 90%;
+    
     padding-left: 4%;
     /* border: 2px solid green; */
-    padding-top: 10px;
+    
     padding-bottom: 10px;
-    margin-top: 10px;
+    
 }
 
 
@@ -76,12 +83,15 @@ img{
     top: 60px;
     width: 100%;
 }
+.dots img{
+    margin-left: 100px;
+}
 
 #image >div> img{
-    width: 70%;
+    width: 78%;
 }
 #image >div:nth-child(3){
-    border: 2px solid green;
+    /* border: 2px solid green; */
     position: relative;
     /* left: 20px; */
     width: 50%;
@@ -91,8 +101,9 @@ img{
     /* right: 100px; */
 }
 #image >div:nth-child(1){
-    border: 2px solid red;
-    position: relative;
+    /* border: 2px solid red; */
+    /* position: relative; */
+    margin-left: 50px;
     /* left: 90px; */
 }
 
@@ -287,9 +298,9 @@ img{
  #fotter > div{
     display: flex;
     justify-content: space-between;
-    line-height: 35px;
+    line-height: 40px;
     padding-top: 20px;
-    padding-bottom: 20px;
+    padding-bottom: 50px;
     margin-top: 20px;
     margin-bottom: 20px;
     background-color: rgb(58, 56, 56);
@@ -302,6 +313,10 @@ img{
  }
 #fotter li{
     list-style: none;
+}
+#fotter li:hover{
+  /* padding-left: 10px; */
+  font-size: 25px;
 }
 
 
