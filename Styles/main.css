@@ -3,7 +3,9 @@
     margin: 0px;
     box-sizing: border-box;
 }
-
+img{
+    cursor: pointer;
+}
 
 #header{
   height: 180px;
@@ -282,6 +284,39 @@
 
 
  /* FOTTER */
- 
+ #fotter > div{
+    display: flex;
+    justify-content: space-between;
+    line-height: 35px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: rgb(58, 56, 56);
+    color: white;
+    padding-left: 10px;
+    padding-right: 10px;
+    
+    font-family: Brandon Text,Arial,sans-serif;
+
+ }
+#fotter li{
+    list-style: none;
+}
+
+
+ /* LOWER FOTTER */
+#lower-fotter > p{
+    display: inline;
+    justify-content: space-between;
+    margin-left: 25px;
+}
+#lower-fotter{
+    margin-bottom: 30px;
+}
+#lower-fotter > p:hover{
+    color: rgb(217, 53, 8);
+}
+
 
 

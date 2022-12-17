@@ -1,0 +1,183 @@
+[
+    {
+      "id": 1,
+      "image": "https://n.nordstrommedia.com/id/sr3/0f12be5d-2a1c-45f0-a0ae-7d3887854a31.jpeg?crop=pad&pad_color=FFF&format=jpeg&w=780&h=1196&dpr=2",
+      "title": "Arrives Before Christmas",
+      "brand": "TOPSHOP",
+      "description": "Faux Leather Mini Skirt",
+      "price": "INR 3,251.48", 
+      "category": "Skirts"
+    },
+    {
+        "id": 2,
+        "image": "https://n.nordstrommedia.com/id/sr3/bb5ff601-3910-429c-8a12-fb956ee74662.jpeg?crop=pad&pad_color=FFF&format=jpeg&w=780&h=1196&dpr=2",
+        "title": "Arrives Before Christmas",
+        "brand": "TOPSHOP",
+        "description": "Floral Bias Cut Satin Midi Skirt",
+        "price": "INR 5,712.06", 
+        "category": "Skirts"
+      },
+      {
+        "id": 3,
+        "image": "https://n.nordstrommedia.com/id/sr3/a6873642-f772-4a32-86cd-d800e9d2cc58.jpeg?crop=pad&pad_color=FFF&format=jpeg&w=780&h=1196&dpr=2",
+        "title": "Arrives Before Christmas",
+        "brand": "BP.",
+        "description": "Pleated Skirt",
+        "price": "INR 4,306.02", 
+        "category": "Skirts"
+      },
+      {
+        "id": 4,
+        "image": "https://n.nordstrommedia.com/id/sr3/110596ef-6020-48cd-9cd3-b2a74d7d9ad5.jpeg?crop=pad&pad_color=FFF&format=jpeg&w=780&h=1196&dpr=2",
+        "title": "Arrives Before Christmas",
+        "brand": "WASH LAB DEMIN",
+        "description": "Soft Denim Maxi Skirt",
+        "price": "INR 6,749.02", 
+        "category": "Skirts"
+      },
+      {
+        "id": 5,
+        "image": "https://n.nordstrommedia.com/id/sr3/9a6e90c5-f8f4-47e9-a060-5d8ce22b54f8.jpeg?crop=pad&pad_color=FFF&format=jpeg&w=780&h=1196&dpr=2",
+        "title": "Arrives Before Christmas",
+        "brand": "ZELLA",
+        "description": "Basalt Jacquard Half Zip Running Top",
+        "price": "INR 4,165.41", 
+        "category": "WinterWear"
+      },
+      {
+        "id": 6,
+        "image": "https://n.nordstrommedia.com/id/sr3/e3b19139-2591-45b7-8c28-c0dceb10ccf6.jpeg?crop=pad&pad_color=FFF&format=jpeg&w=780&h=1196&dpr=2",
+        "title": "Arrives Before Christmas",
+        "brand": "Nike",
+        "description": "Sportswear Phoenix Oversize Fleece Hoodie",
+        "price": "INR 4,943.13", 
+        "category": "WinterWear"
+      },
+      {
+        "id": 7,
+        "image": "https://n.nordstrommedia.com/id/sr3/59c67ce9-3511-4d02-a6a7-cd82e514bc3a.jpeg?crop=pad&pad_color=FFF&format=jpeg&w=780&h=1196&dpr=2",
+        "title": "Arrives Before Christmas",
+        "brand": "THE NORTH FACE",
+        "description": "Mountain Windproof High Pile Fleece Coat",
+        "price": "INR 13,093.81", 
+        "category": "WinterWear"
+      },
+      {
+        "id": 8,
+        "image": "https://n.nordstrommedia.com/id/sr3/0de92e6d-f259-4d05-b6ed-ed688c22d6ba.jpeg?crop=pad&pad_color=FFF&format=jpeg&w=780&h=1196&dpr=2",
+        "title": "Arrives Before Christmas",
+        "brand": "ADIDAS ORIGINALS",
+        "description": "x Thebe Magugu Embroidered 3-Stripes Crop Cotton Graphic Logo Hoodie",
+        "price": "INR 6,590.84", 
+        "category": "WinterWear"
+      },
+      {
+        "id": 9,
+        "image": "https://n.nordstrommedia.com/id/sr3/81454cf8-45a4-41ca-97b3-a8a29505e17e.jpeg?crop=pad&pad_color=FFF&format=jpeg&trim=color&trimcolor=FFF&w=780&h=838&dpr=2",
+        "title": "Arrives Before Christmas",
+        "brand": "JEFFREY CAMPBELL",
+        "description": "Geist Square Toe Boot",
+        "price": "INR 14,495.46", 
+        "category": "Shoes"
+      },
+      {
+        "id": 10,
+        "image": "https://n.nordstrommedia.com/id/sr3/4c7939f2-ffec-4cbb-987d-6e33f93f5f9e.jpeg?crop=pad&pad_color=FFF&format=jpeg&trim=color&trimcolor=FFF&w=780&h=838&dpr=2",
+        "title": "Arrives Before Christmas",
+        "brand": "DOLCE VITA",
+        "description": "Caster H2O Waterproof Block Heel Bootie",
+        "price": "INR 8,699.91", 
+        "category": "Shoes"
+      },
+      {
+        "id": 11,
+        "image": "https://n.nordstrommedia.com/id/sr3/dccbe0d9-214c-4c02-b3f3-9713c837e713.jpeg?crop=pad&pad_color=FFF&format=jpeg&trim=color&trimcolor=FFF&w=780&h=838&dpr=2",
+        "title": "Arrives Before Christmas",
+        "brand": "NORDSTROM",
+        "description": "Damara Pointed Toe Bootie",
+        "price": "INR 5,271.80", 
+        "category": "Shoes"
+      },
+      {
+        "id": 12,
+        "image": "https://n.nordstrommedia.com/id/sr3/3f535f68-6ed1-4352-bdce-145c6ddfdc5f.jpeg?crop=pad&pad_color=FFF&format=jpeg&trim=color&trimcolor=FFF&w=780&h=838&dpr=2",
+        "title": "Arrives Before Christmas",
+        "brand": "TOMS",
+        "description": "Skylar Chelsea Boot",
+        "price": "INR 4,393.89", 
+        "category": "Shoes"
+      },
+      {
+        "id": 13,
+        "image": "https://n.nordstrommedia.com/id/sr3/96c7fb42-b78e-4437-bc79-2b38acf1dfbc.jpeg?crop=pad&pad_color=FFF&format=jpeg&w=780&h=1196&dpr=2",
+        "title": "Arrives Before Christmas",
+        "brand": "ALLSAINTS",
+        "description": "Delta Shimmer off the Shoulder Top",
+        "price": "INR 11,863.52", 
+        "category": "Tops"
+      },
+      {
+        "id": 14,
+        "image": "https://n.nordstrommedia.com/id/sr3/95fbec5c-bf2c-401d-94a3-102abc9c00f6.jpeg?crop=pad&pad_color=FFF&format=jpeg&w=780&h=1196&dpr=2",
+        "title": "Arrives Before Christmas",
+        "brand": "ASTR THE LABEL",
+        "description": "Square Neck Puff Sleeve Top",
+        "price": "INR 3,866.63", 
+        "category": "Tops"
+      },
+      {
+        "id": 15,
+        "image": "https://n.nordstrommedia.com/id/sr3/15c016d4-0cbe-4c67-9e68-2017c6bfa63c.jpeg?crop=pad&pad_color=FFF&format=jpeg&w=780&h=1196&dpr=2",
+        "title": "Arrives Before Christmas",
+        "brand": "ASTR THE LABEL",
+        "description": "One-Shoulder Satin Long Sleeve Top",
+        "price": "INR 2,902.40", 
+        "category": "Tops"
+      },
+      {
+        "id": 16,
+        "image": "https://n.nordstrommedia.com/id/sr3/1430f0f3-9a03-458a-b371-142ff7b531c5.jpeg?crop=pad&pad_color=FFF&format=jpeg&w=780&h=1196&dpr=2",
+        "title": "Arrives Before Christmas",
+        "brand": "TREASURE & BOND",
+        "description": "Plaid Boyfriend Shirt",
+        "price": "INR 2,902.40", 
+        "category": "Tops"
+      },
+      {
+        "id": 17,
+        "image": "https://n.nordstrommedia.com/id/sr3/a8872c67-cf70-4da8-99ed-5ebe3de63bd5.jpeg?crop=pad&pad_color=FFF&format=jpeg&w=780&h=1196&dpr=2",
+        "title": "Arrives Before Christmas",
+        "brand": "BLANKNYC",
+        "description": "Faux Suede Flare Leg Pants",
+        "price": "INR 6,459.03", 
+        "category": "Pants & leggins"
+      },
+      {
+        "id": 18,
+        "image": "https://n.nordstrommedia.com/id/sr3/f44e8554-d29e-4c01-ba71-29e09bcfacf8.jpeg?crop=pad&pad_color=FFF&format=jpeg&w=780&h=1196&dpr=2",
+        "title": "Arrives Before Christmas",
+        "brand": "BLANKNYC",
+        "description": "Baxter Rib Cage Pants",
+        "price": "INR 8,612.03", 
+        "category": "Pants & leggins"
+      },
+      {
+        "id": 19,
+        "image": "https://n.nordstrommedia.com/id/sr3/8564ae7a-2534-4f36-9f9b-94b44d2a4607.jpeg?crop=pad&pad_color=FFF&format=jpeg&w=780&h=1196&dpr=2",
+        "title": "Arrives Before Christmas",
+        "brand": "VUORI",
+        "description": "Clean Elevation High Waist 7/8 Leggings",
+        "price": "INR 5,167.22 ", 
+        "category": "Pants & leggins"
+      },
+      {
+        "id": 20,
+        "image": "https://n.nordstrommedia.com/id/sr3/31e49a13-7c6f-43e6-a8dc-2222481173ab.jpeg?crop=pad&pad_color=FFF&format=jpeg&w=780&h=1196&dpr=2",
+        "title": "Arrives Before Christmas",
+        "brand": "MADEWELL",
+        "description": "The Perfect High Waist Straight Leg Jeans",
+        "price": "INR 7,873.86", 
+        "category": "Pants & leggins"
+      }
+
+]   
