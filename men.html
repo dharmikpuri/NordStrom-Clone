@@ -4,20 +4,61 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Products</title>
-    <link rel="stylesheet" href="Styles\men.css">
+    <title>MEN</title>
+    <link rel="stylesheet" href="./Styles/men.css">
 </head>
 <body>
+  <div id="header">
+    
+    <!-- /* UPPER */ -->
+    <div id="upper_header">
+      <h4>Shipping outside of the U.S. or Canada?<u> Learn About International Shipping</u></h4>
+    </div>
+    <!-- /* MID */ -->
+    <div  id="mid_header">
+        <img src="https://1000logos.net/wp-content/uploads/2019/08/Nordstrom-logo-1.jpg" alt="">
+      
+       <input type="text" placeholder="Search Products or brand">
+     
+        <a href="">Sign in</a>
+        <a href="">Stores</a>
+        <a href="">Purchases</a>
+        <i class="fa-solid fa-bag-shopping"></i>
+       </div>
+       
+    <hr>
+
+    <!-- /* BOTTOM */ -->
+    <div  id="bottom_header">
+         <p><i class="fa-solid fa-gift"></i>Holiday Gifts</p>
+        <p>Holiday Deals</p>
+        <p>Women</p>
+        <p>Men</p>
+        <p>Kids</p>
+        <p>Young Adult</p>
+        <p>Activewear</p>
+        <p>Home</p>
+        <p>Beauty</p>
+        <p>Designer</p>
+        <p>The Thread</p>
+    </div>
+
+    <div id="line">
+      <img src="https://n.nordstrommedia.com/id/5ec3d3de-9e8c-4317-bc28-3b42b503268e.png?h=17&w=1608" alt="">
+    </div>
+   </div>
+
 
     <div id="container">
-      <!-- APPEND HERE -->
-    </div>
+        <!-- APPEND HERE -->
+      </div>
 
 </body>
 
 <script>
 
 let container=document.querySelector("#container");
+let item= JSON.parse(localStorage.getItem("added")) || []
 
      fetch("men.json")
      .then((res) =>{
@@ -25,14 +66,14 @@ let container=document.querySelector("#container");
      })
      .then((actualData) =>{
     //   fetchedData=actualData
-      showRestraurant(actualData)
+      showData(actualData)
      })
      .catch((error) =>{
       console.log(error)
      })
 
       
-     function showRestraurant(data){
+     function showData(data){
         container.innerHTML = ""
         data.forEach((element) =>{
 
@@ -42,26 +83,36 @@ let container=document.querySelector("#container");
            let image=document.createElement("img")
            image.setAttribute("src",element.image)
     
-           let title=document.createElement("h2")
+           let title=document.createElement("h3")
            title.innerText= element.title
     
-           let brand=document.createElement("h3")
+           let brand=document.createElement("h2")
            brand.innerText=element.brand
     
            let description=document.createElement("p")
            description.innerText=element.description
     
            let price=document.createElement("p")
-           price.innerText=element.price
+           price.innerText="INR"+element.price
 
+           let br=document.createElement("hr")
 
+          let btn=document.createElement("button")
+          btn.innerText= "ADD TO CART"
+          btn.addEventListener("click", ()=>{
+          
+              item.push({...element,quantity:1})
+              localStorage.setItem(("added"),JSON.stringify(item))
+              
+          })
            
           
-           card.append(image,title,brand,description,price);
+           card.append(image,title,brand,description,price,br,btn);
           container.append(card);
          });
         
       }
 
 </script>
+
 </html>
