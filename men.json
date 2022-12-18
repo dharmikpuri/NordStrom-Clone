@@ -5,7 +5,7 @@
       "title": "Arrives Before Christmas",
       "brand": "Nike",
       "description": "Sports Wear Club Fleece Seweatpants (Big Boy)",
-      "price": " 2,902.40", 
+      "price": " 2902", 
       "category": "Lower"
     },
     {
@@ -14,8 +14,8 @@
       "title": "Arrives Before Christmas",
       "brand": "Nike",
       "description": "Kids Fleece Stripe Joggers (Little Kid and Big Kids)",
-      "price": " 4,729.83" ,
-      "category": "Jogger"
+      "price": " 4729" ,
+      "category": "Lower"
     },
     {
       "id": 3,
@@ -23,7 +23,7 @@
       "title": "Arrives Before Christmas",
       "brand": "Levi's",
       "description": "Levi's® 502 Strong Performance Straight Leg Jeans",
-      "price": " 3,611.87 " ,
+      "price": " 3611 " ,
       "category": "Jeans"
     },
     {
@@ -32,8 +32,8 @@
       "title": "Arrives Before Christmas",
       "brand": "FEAR OF GOD ESSENTIALS",
       "description": "Kids' Relaxed Sweatpants",
-      "price": " 5,589.81 " ,
-      "category": "Lower"
+      "price": " 5589 " ,
+      "category": "Jeans"
     },
    
     {
@@ -42,7 +42,7 @@
       "title": "Arrives Before Christmas",
       "brand": "Joe's",
       "description": "Kids' The Brixton Slim Straight Leg Jeans",
-      "price": " 4,643.83 " ,
+      "price": " 4643 " ,
       "category": "Jeans"
     },
     {
@@ -51,7 +51,7 @@
       "title": "Arrives Before Christmas",
       "brand": "Nike",
       "description": "Windrunner Water Resistant Hooded Jacket",
-      "price": " 5,589.80 ",
+      "price": " 5589 ",
       "category": "Jacket" 
     },
     
@@ -61,7 +61,7 @@
       "title": "Arrives Before Christmas",
       "brand": "7 DIAMONDS",
       "description": "Liberty Geometric Stretch Button-Up Shirt",
-      "price": " 8,513.69" ,
+      "price": " 8513" ,
       "category": "Shirts"
     },
     {
@@ -70,7 +70,7 @@
       "title": "Arrives Before Christmas",
       "brand": "7 DIAMONDS",
       "description": "Generation Plaid Stretch Flannel Button-Up Shirt",
-      "price": " 10,749.61" ,
+      "price": " 10749" ,
       "category": "Shirts"
     },
     {
@@ -79,7 +79,7 @@
       "title": "Arrives Before Christmas",
       "brand": "NORDSTROM",
       "description": "Plaid Trim Fit Flannel Button-Down Shirt",
-      "price": " 4,298.99" ,
+      "price": " 4298" ,
       "category": "Shirts"
     },
     {
@@ -88,7 +88,7 @@
       "title": "Arrives Before Christmas",
       "brand": "VINCE",
       "description": "Cotton Blend Shirt Jacket",
-      "price": " 25,369.09" ,
+      "price": " 25369" ,
       "category": "Jacket"
 
     },
@@ -98,7 +98,7 @@
       "title": "Arrives Before Christmas",
       "brand": "SCHOTT NYC",
       "description": "Military Henley Sweater",
-      "price": " 13,329.52" ,
+      "price": " 13329" ,
       "category": "Jacket"
 
     },
@@ -108,7 +108,7 @@
       "title": "Arrives Before Christmas",
       "brand": "TOPMAN",
       "description": "Solid Cotton Turtleneck",
-      "price": " 3,267.88 " ,
+      "price": " 3267" ,
       "category": "Jacket"
     },
     {
@@ -117,7 +117,7 @@
       "title": "Arrives Before Christmas",
       "brand": "TOPMAN",
       "description": "P65 Houndstooth Crewneck Sweater",
-      "price": " 5,589.80" ,
+      "price": " 5589" ,
       "category": "Jacket"
     },
     {
@@ -126,7 +126,7 @@
       "title": "Arrives Before Christmas",
       "brand": "CHARATT WORK IN PROGRESS",
       "description": "Logo Pocket T-Shirt",
-      "price": " 4,127.85",
+      "price": " 4127",
       "category": "T-shirt" 
     },
     {
@@ -135,7 +135,7 @@
       "title": "Arrives Before Christmas",
       "brand": "VUORI",
       "description": "Current Tech Long Sleeve T-Shirt",
-      "price": " 5,847.79" ,
+      "price": " 5847" ,
       "category": "T-shirt"
     },
     {
@@ -144,7 +144,7 @@
     "title": "Arrives Before Christmas",
     "brand": "ICECREAM",
     "description": "Visitation Cotton Graphic Tee",
-    "price": " 3,009.89 ",
+    "price": " 3009",
     "category": "T-shirt"
   } 
   ]

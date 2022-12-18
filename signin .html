@@ -1,28 +1,172 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-</head>
-<body>
     
-<div id="container">
-   <form id="form">
-    <h1>Sign In</h1>
-    <input id="email"  type="email" placeholder="Enter Your Email">
-     
-    <br>
+</head>
+<style>
+    #image{
+      
+      width: 100%;
+  }
+  #image>img{
+      width: 100%;
+  }
+    #signin{
+    display: none;
+    margin: auto;    
+    }
 
-    <input  id="pass" type="password" placeholder="Enter Your Password">
+    body{
+    margin: 0px;
+    padding: 0px;
+    font-family: "PT Sans",sans-serif;
+    background-color:white;
+}
 
-    <br>
+#container{
+  margin-top: 200px;
+  width: 100%;
+  text-align: center;  
+  gap: 10px;
+  position: fixed;
+  top: 0;
+  
+}
+#signup>p{
+    text-align: left;
+    margin-left: 585px;
+}
+#container > div>:nth-child(1){
+    padding: 10px 10px 10px 10px;
+    margin-bottom: 20px;
+    margin-left: 10px;
+}
+#container > div>:nth-child(2){
+    /* border: 2px solid red; */
+    padding: 10px 10px 10px 10px;
+    margin-bottom: 20px;
+    margin-left: 10px;
+}
+</style>
 
-    <input type="submit">
-
-   </form>
+<body>
+<div id="image">
+    <img src="https://securecdn.pymnts.com/wp-content/uploads/2016/07/Nordstroms-New-Ideas.jpg" alt="" id="first">
+    
+    
 </div>
+    <div id="container">
+        <div>
+            <button>NORDSTROM-Register</button>
+            <button>NORDSTROM-Log-In</button>
+        </div>
+        <form id="signup">
+            <input type="text" id="name" placeholder="Name" required>
+            <br>
+            <input type="email" id="email" placeholder="email" required>
+            <br>
+            <input type="password" id="password" placeholder="password" required>
+            <br>
+            <input type="password" id="passwordchk" placeholder="Re-enter password" required>
+            <br>
+            <input type="submit">
+        </form>
+
+        <form id="signin">
+            <h1>NORDSTROM-Log_In</h1>
+            <input type="email" id="email1" placeholder="email" required>
+            <br>
+            <input type="password" id="password1" placeholder="password" required>
+            <br>
+            <input type="submit">
+        </form>
+
+    </div>
 
 </body>
+
 </html>
+
+<script>
+   
+    let signin = document.querySelector("#signin");
+    let signup = document.querySelector("#signup");
+    let loginbtn = document.querySelector("div>button:nth-child(2)");
+    let signupbtn = document.querySelector("div>button:nth-child(1)");
+
+    let users = JSON.parse(localStorage.getItem("usersdata")) || [];
+    loginbtn.addEventListener("click", function (){
+        signup.style.display = "none";
+        signin.style.display = "block";
+        document.title = "Sign In";
+    })
+
+    signupbtn.addEventListener("click", function (){
+        signin.style.display = "none";
+        signup.style.display = "block"
+        document.title = "Sign up"
+    })
+
+    signup.addEventListener("submit", function (event){
+        event.preventDefault();
+        let count = 0;
+        users.forEach(function (element){
+            if (element.email === signup.email.value) {
+                count++;
+            }
+        })
+        if (count > 0){
+            alert("user already register")
+        }
+        else {
+            if (signup.password.value != signup.passwordchk.value){
+                alert("password do not match!")
+            }
+            else{
+                let user={
+                    name: signup.name.value,
+                    email: signup.email.value,
+                    password: signup.password.value,
+                };
+                users.push(user);
+                localStorage.setItem("usersdata", JSON.stringify(users));
+                alert("sign up sucessull");
+                signup.reset();
+            }
+        }
+    })
+
+
+    signin.addEventListener("submit", function (event){
+        event.preventDefault();
+        let count = 0;
+        let temp;
+        users.forEach(function (element){
+            if (element.email === signin.email1.value){
+                count++;
+                temp = element;
+                localStorage.setItem("loggeduser", JSON.stringify(element));
+            }
+        })
+        if (count == 0){
+            alert("user not registered!");
+        }
+        else {
+            if (temp.password != signin.password1.value){
+                alert("Wrong Password")
+            } else {
+                    alert("Login Successful!");
+                    window.location.assign("./index.html")  
+        }
+            }
+        })
+       
+
+
+
+</script>

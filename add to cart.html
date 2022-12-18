@@ -5,11 +5,15 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title> Add to Cart Page</title>
+    <link rel="stylesheet" href="./Styles/add to cart.css">
     
   </head>
   <body>
    
-    <h1 id="total">Your Total cart Price is:- <span id="cart-total">0</span></h1>
+
+
+    
+    <h2 id="total">Total Amount:- <span id="cart-total">0</span></h2>
     <div id="cart-container">
       <!-- Here Append All the cart Products  -->
     </div>
@@ -29,16 +33,22 @@
       data.forEach((element,index) =>{
 
         let card=document.createElement("div");
+        card.setAttribute("class","card")
         let image=document.createElement("img")
            image.setAttribute("src",element.image)
 
-           let title=document.createElement("h2")
+           let title=document.createElement("h3")
            title.innerText= element.title
 
-           let brand=document.createElement("h3")
+           let brand=document.createElement("h2")
            brand.innerText=element.brand
 
+           let description=document.createElement("p")
+           description.innerText=element.description
+    
+
         let inc = document.createElement("button");
+        inc.setAttribute("class","plus")
         inc.textContent = "+";
         inc.addEventListener("click",function(){
           item[index].quantity++;
@@ -48,6 +58,7 @@
         })
 
         let dec = document.createElement("button")
+        dec.setAttribute("class","minus")
         dec.textContent = "-";
         dec.addEventListener("click",function(){
           item[index].quantity--;
@@ -61,6 +72,7 @@
         })
 
         let remove = document.createElement("button");
+        remove.setAttribute("class","delete")
         remove.textContent = "DELETE";
         remove.addEventListener("click",function(){
           deltedata(index)
@@ -72,7 +84,7 @@
 
       
       
-        card.append(image,title,brand,inc,quantity,dec,remove);
+        card.append(image,title,brand,description,inc,quantity,dec,remove);
         container.append(card);
 
       })
