@@ -78,7 +78,7 @@ img{
     padding-bottom: 20px;
 }
 .card > h3{
-   color: rgb(90, 149, 90);
+   color: green;
 }
 .card > p{
     line-height: 22px;
@@ -100,3 +100,56 @@ img{
 .card{
    border-radius: 25px;
 }
+
+/* FOTTER */
+#fotter > div{
+    display: flex;
+    justify-content: space-between;
+    line-height: 40px;
+    padding-top: 20px;
+    padding-bottom: 40px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    /* background-color: rgb(58, 56, 56); */
+    /* color: white; */
+    padding-left: 10px;
+    padding-right: 10px;
+    /* border: 2px solid red; */
+    font-family: Brandon Text,Arial,sans-serif;
+
+ }
+#fotter li{
+    list-style: none;
+}
+#fotter li:hover{
+  padding-left: 10px;
+}
+
+
+ /* LOWER FOTTER */
+#lower-fotter > p{
+    display: inline;
+    justify-content: space-between;
+    margin-left: 25px;
+}
+#lower-fotter{
+  
+    background-color: black;
+    color: white;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-bottom: 15px;
+}
+#lower-fotter > p:hover{
+    color: rgb(217, 53, 8);
+}
+#filter{
+   border: 1px solid black;
+   padding: 10px 10px 10px 10px;
+   margin-left: 38px;
+   margin-top: 20px;
+  
+}
+
+
+  

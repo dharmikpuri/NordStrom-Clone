@@ -22,7 +22,7 @@
      
         <a href="">Sign in</a>
         <a href="">Stores</a>
-        <a href="">Purchases</a>
+        <a href="add to cart.html">Purchases</a>
         <i class="fa-solid fa-bag-shopping"></i>
        </div>
        
@@ -48,10 +48,92 @@
     </div>
    </div>
 
+   <div class="filters">
+    <select name="" id="filter">
+      <option  value="">Select for filter</option>
+      <option value="Tops">Tops</option>
+      <option value="Skirts">Skirts</option>
+      <option value="WinterWear">WinterWear</option>
+      <option value="Shoes">Shoes</option>
+      <option value="Pants & leggins">Pants & leggins</option>
+    </select>
+
+  </div>
+
 
     <div id="container">
         <!-- APPEND HERE -->
       </div>
+
+      <!-- FOTTER -->
+  <div id="fotter">
+    <div id="fotter-child">
+   <div>
+       <h3>Customer Service</h3>
+       <li>Contact Us</li>
+       <li>Order Status</li>
+       <li>Shipping</li>
+       <li>Return Policy & Exchange</li>
+       <li>Price Adjustments</li>
+       <li>Gift Cards</li>
+       <li>FQA</li>
+       <li>Product Recalls</li>
+       <li>India</li>
+   </div>
+
+   <div>
+       <h3>About Us</h3>
+       <li>All Brands</li>
+       <li>Careers</li>
+       <li>Corporate Social Responsibility</li>
+       <li>Diversity,Inclusion & Belonging</li>
+       <li>Get Email Updates</li>
+       <li>Nordstrom Blog</li>
+       <li>The Thread</li>
+       <li>Nordy Podcast</li>
+   </div>
+
+   <div>
+       <h3>Stores & Services</h3>
+       <li>Find a Store</li>
+       <li>Free Style Help</li>
+       <li>Alterations & Tailoring</li>
+       <lip>Pop-in Shop</lip>
+       <li>Virtual Events</li>
+       <li>Spa Nordstrom</li>
+       <li>Nordstrom Restaurants</li>
+       <li>Nordstrom Local</li>
+   </div>
+
+     
+   <div>
+       <h3>Nordstrom Cards & Rewards</h3>
+       <li>The Nordy Club Rewards</li>
+       <li>Pay my Bill</li>
+       <li>Manage My Nordstrom Card</li>
+   </div>
+
+   <div>
+       <h3>Nordstrom,Inc.</h3>
+       <li>Nordstrom Rack</li>
+       <li>Nordstrom canada</li>
+       <li>Investor Relations</li>
+       <li>Press Releases</li>
+       <li>Nordstrom Media Network</li>
+   </div>
+</div>
+ </div>
+
+
+ <!-- LOWER FOTTER -->
+ <div id="lower-fotter">
+   <p>Privacy</p>
+   <p>Do Not Sell My Personal Information</p>
+   <p>Terms & Conditions</p>
+   <p>Interest-Based Ads</p>
+   <p>2022 Nordstrom,Inc.</p>
+ </div>
+
 
 </body>
 
@@ -65,7 +147,7 @@ let item= JSON.parse(localStorage.getItem("added")) || []
       return res.json()
      })
      .then((actualData) =>{
-    //   fetchedData=actualData
+      filterData=actualData
       showData(actualData)
      })
      .catch((error) =>{
@@ -112,6 +194,20 @@ let item= JSON.parse(localStorage.getItem("added")) || []
          });
         
       }
+
+      let filterData=[];
+    let filter=document.querySelector("#filter")
+    filter.addEventListener("change",() =>{
+       let filteredData=filterData.filter((element) =>{
+        if(element.category === filter.value){
+         
+          return true;
+        }else{
+          return false;
+        }
+       })
+       showData(filteredData)
+    })
 
 </script>
 
